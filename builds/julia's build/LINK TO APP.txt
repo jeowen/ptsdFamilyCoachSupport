@@ -1,0 +1,15 @@
+
+Julia Hoffman, PsyD
+Attachments8:33 AM (2 hours ago)
+
+to me 
+Hey ok, tried to get done quickly but got as far as:
+
+new build (full catalyze) bundleID: catalyze.full.Family-Coach
+filename (attached): famcatalyzefull.ipa
+the whole thing is: itms-services:///?action=download-manifest&url=https://www.healthredesigned.com/research/famcatalyzefull.plist
+
+I didn't make a tinyurl but if you do that then you should be able to check it.
+
+~J
+

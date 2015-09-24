@@ -1,0 +1,45 @@
+	JULIA's APP-BUILDING INSTRUCTIONS
+FEB 2015
+
+ENTERPRISE DISTRIBUTION IN XCODE
+
+1. Change Bundle ID (e.g., net.health-space.Family-Coach-Full-Catalyze)
+(if you have already created a .plist file, make sure it matches the App's Bundle ID)
+
+2. Take existing provisioning profile (~Wildcard_Jan_2015), and double click
+to ensure that it's added to keychain of your current device running xcode
+
+3. CLICK on link to app's targets & platforms, 
+
+4.  On the "GENERAL" settings tab, make sure TEAM is set to TransEnD
+
+5. On the "Build Settings" tab, make sure  -> Code Signing (ALL ATTRIBUTES) are set to TransEnD
+  -Code Signing Identity
+  -Debug
+  -Any iOS SDK
+  -Release
+  -Any iOS SDK
+  -Provisioning Profile: Wildcard Profile May 2015
+
+6. Product -> Archive (and then wait for xcode to do its work, compiling all source files)
+
+6. an "Organizer | Archives" window should appear: Change comment to say something about the build
+
+7.    Press "EXPORT..." -> save for Enterprise Development, select development team "TransEnD"
+
+8.      Export -> famcoachcatalyze.ipa (this is the app) & save to directory of choice
+
+9. Modify .plist file to specify BundleID and link to a secure website
+   where the app (.ipa file) is hosted
+   - BEST solution is to let XCODE create this, but I haven't been able to do this with specified parameters yet
+   - FOR NOW, modify previously-used .plist files by changing: BundleID, secure server where the .ipa file is hosted 
+   
+10. Create link to the app using tinyurl with the following link to:
+itms-services:///?action=download-manifest&url=http://www.health-space.net/familycoach/builds/research/famcoachcatalyze.plist
+
+/* DELETE BELOW, BUT FOLLOW INSTRUCTIONS FIRST! */
+/* convert string above, starting with "itms-services:///" */
+/* using tinyurl.com  */
+/* replace link at end with link to location of .plist file */
+/* MUST BE HTTPS://    */
+

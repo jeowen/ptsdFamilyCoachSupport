@@ -1,0 +1,22 @@
+-x
+objective-c
+-arch
+x86_64
+-std=gnu99
+-fpascal-strings
+-Os
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk
+-fasm-blocks
+-mmacosx-version-min=10.8
+-g
+-fvisibility=hidden
+-iquote
+-iquote
+-I/Users/ithaca/mHealth/ptsdcoachapps/catalyze/ios/PTSD Family Coach + Support/ptsdcoachapps-catalyze-full/ios/contentbuilder/out/Build/Products/Release/include
+-I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/include/libxml2
+-F/Users/ithaca/mHealth/ptsdcoachapps/catalyze/ios/PTSD Family Coach + Support/ptsdcoachapps-catalyze-full/ios/contentbuilder/out/Build/Products/Release
+x86_64-apple-darwin14.3.0
+"4.2.1 Compatible Apple LLVM 6.1.0 (clang-602.0.53)"
+SDK_PRODUCT_BUILD_VERSION=14D125
+14D125

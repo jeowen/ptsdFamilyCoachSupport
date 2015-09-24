@@ -1,0 +1,7 @@
+itms-services:///?action=download-manifest&url=http://www.health-space.net/familycoach/builds/research/famcoachcatalyze.plist
+
+/* DELETE BELOW, BUT FOLLOW INSTRUCTIONS FIRST! */
+/* convert string above, starting with "itms-services:///" */
+/* using tinyurl.com  */
+/* replace link at end with link to location of .plist file */
+/* CHECK: will this fail if not https:// ?? */
